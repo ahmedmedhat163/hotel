@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+   <html dir="rtl">...</html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hotel Website</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <!-- swiper js cdn link -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- custom css link -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- header -->
+
+   <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+
+      <a href="#" class="logo"> <i class="fas fa-hotel"></i> THE NILE RITZ-CARLTON
+      </a>
+
+      <nav class="navbar">
+         <a href="#home">الرئسيه</a>
+         <a href="#about">عنا</a>
+         <a href="#room">الغرف</a>
+         <a href="#gallery">صاله العرض</a>
+         <a href="#review">تقيمات عملائنا</a>
+         <a href="#faq">الاسئله المكرره</a>
+         <a href="#reservation" class="btn"> احجز الان</a>
+      </nav>
+     
+
+
+   </header>
+
+   <!-- end -->
+
+   <!-- home -->
+
+   <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>إنه المكان الذي تتحقق فيه الأحلام
+                  </h3>
+                  <a href="#" class="btn"> قم بزيارة عرضنا
+                  </a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/ahmed1.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/ahmed2.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(images/ahmed3.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/ahmed4.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/ahmed5.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/ahmed6.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/ahmed7.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/ahmed8.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/ahmed9.jpg) no-repeat;">
+               <div class="content">
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- availability -->
+
+   <section class="availability">
+
+      <form action="https://formspree.io/f/xnqybwjk" method="POST">
+
+         <div class="box">
+            <p>التاريخ <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+
+        
+
+         <div class="box">
+            <p>الكبار <span>*</span></p>
+            <select name="adults" id="" class="input">
+               <option value="1">1 الكبار</option>
+               <option value="2">2 الكبار</option>
+               <option value="3">3 الكبار</option>
+               <option value="4">4 الكبار</option>
+               <option value="5">5 الكبار</option>
+               <option value="6">6 الكبار</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>الاطفال <span>*</span></p>
+            <select name="child" id="" class="input">
+               <option value="1">1 الطفل</option>
+               <option value="2">2 الطفل</option>
+               <option value="3">3 الطفل</option>
+               <option value="4">4 الطفل</option>
+               <option value="5">5 الطفل</option>
+               <option value="6">6 الطفل</option>
+            </select>
+         </div>
+
+         <div class="box">
+            <p>الغرف <span>*</span></p>
+            <select name="rooms" id="" class="input">
+               <option value="1">1 الغرف</option>
+               <option value="2">2 الغرف</option>
+               <option value="3">3 الغرف</option>
+               <option value="4">4 الغرف</option>
+               <option value="5">5 الغرف</option>
+               <option value="6">6 الغرف</option>
+            </select>
+         </div>
+
+         <input type="submit" value="احجز الان" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about -->
+
+   <section class="about" id="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/ahmed6.jpg" alt="">
+         </div>
+
+         <div class="content">
+            <h3>عنا</h3>
+<p>يحمل فندق النيل ريتز كارلتون ، القاهرة إرثًا غنيًا من التقاليد والرفاهية. يطل الفندق الفخم الأيقوني على نهر النيل ، ويوفر للمسافرين بغرض الترفيه والعمل ملاذًا فخمًا في قلب القاهرة. يجمع الفندق بين مدينة "قائمة الأمنيات" والخدمات ذات المستوى العالمي. تقدم وسائل الراحة الرائعة بما في ذلك أكثر من تسعة مطاعم وبارات مميزة ، ومنتجع صحي فخم وخدمة غير مسبوقة تعدك بإجازة لا تُنسى.
+</p>
+<p>تم تصميم الغرف 331 المجهزة بأناقة بما في ذلك 50 جناحًا لتدليل حواسك بأرقى وسائل الراحة. تطل إما على النيل الأسطوري أو المتحف المصري التاريخي.
+</p>         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- room -->
+
+   <section class="room" id="room">
+
+      <h1 class="heading">الغرف</h1>
+
+      <div class="swiper room-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$360/night</span>
+                  <img src="images/room-1.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>غرف حصريه</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">احجز الان</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$400/night</span>
+                  <img src="images/room-2.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>غرفه حصريه</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">احجز الان</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$500/night</span>
+                  <img src="images/room-3.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>غرفه حصريه</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">احجز الان</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$440/night</span>
+                  <img src="images/room-4.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>غرف حصريه</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">احجز الان</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$430/night</span>
+                  <img src="images/room-5.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>غرف حصريه</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">احجز الان</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">$420/night</span>
+                  <img src="images/room-6.jpg" alt="">
+                  <a href="#" class="fas fa-shopping-cart"></a>
+               </div>
+               <div class="content">
+                  <h3>غرف حصريه</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">احجز الان</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- services -->
+
+   <section class="services">
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/service1.png" alt="">
+            <h3>حمام السباحة
+            </h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service2.png" alt="">
+            <h3>طعام شراب
+            </h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service3.png" alt="">
+            <h3>مطعم</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service4.png" alt="">
+            <h3>اللياقه البدنيه</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service5.png" alt="">
+            <h3>الاسترخاء</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/service6.png" alt="">
+            <h3>منتجع شاطئ
+            </h3>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- gallery -->
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading">صاله العرض</h1>
+
+      <div class="swiper gallery-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery1.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery2.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery3.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery4.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery5.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery6.jpg" alt="">
+               <div class="icon">
+                  <i class="fas fa-magnifying-glass-plus"></i>
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- review -->
+
+   <section class="review" id="review">
+
+      <div class="swiper review-slider" style="margin-right: -0%;">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">تقيم عملائنا</h2>
+               <i class="fas fa-quote-right"></i>
+
+<P>مطعم الفندق روعة السعر مناسب والاكل ولا غلطه والفرقة الموسيقية مميزه ، سعر الشخص 180 ﷼ شامل العشاء والسهرة .
+</P>               <div class="user">
+                  <img src="images/mm2.png" alt="">
+                  <div class="user-info">
+                     <h3>سامي السعدي</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">تقيم عملائنا</h2>
+               <i class="fas fa-quote-right"></i>
+
+<P>افضل فندق من وجهة  نظري المتواضعة، من اول الديكورات والفرش ومعاملة الجست والنظافة. احساس براحة نفسية، السعر طبعا غالي مقارنة بالفنادق الخمس نجوم
+</P>               <div class="user">
+                  <img src="images/mm3.png" alt="">
+                  <div class="user-info">
+                     <h3>Saleh</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+          
+
+            
+
+           
+
+            <div class="swiper-slide slide">
+               <h2 class="heading">تقيم عملائنا</h2>
+               <i class="fas fa-quote-right"></i>
+
+<P>أفضل موقع، وأحسن خدمة في القاهرة. رتز كارلتون النيل يتميز بقربه من المتحف القومي ووسط البلد (دقيقة مشي من البوابة الخلفية المطلة على ميدان التحرير)، وإطلالة رائعة على النيل… أما الخدمة، فمستوى الرتز الذي لا يغلب…
+</P>               <div class="user">
+                  <img src="images/mm4.png" alt="">
+                  <div class="user-info">
+                     <h3>محمد عبد الرحمن</h3>
+                     <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- faq -->
+
+   <section class="faqs" id="faq">
+
+      <h1 class="heading">الاسئله المتكرره</h1>
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/ahmed7.jpg" alt="">
+         </div>
+
+         <div class="content">
+
+            <div class="box active">
+               <h3>ما هي طرق الدفع?</h3>
+               <p>visa ,master card, paypall</p>
+            </div>
+
+            <div class="box">
+               <h3>الفنادق والمنتجعات
+
+
+               </h3>
+<p>الفنادق والمنتجعات<br>
+   تصفح حسب الموقع<br>
+   تصفح عن طريق الخريطة<br>
+   المواقع القادمة<br>
+   السفر بالفائدة<br>
+   مجموعة يخوت ريتز كارلتون<br>
+   ريتز كارلتون ريزيرف<br>
+   مستوى النادي<br>
+   حجز الفندق والطيران والسيارة<br>
+   المساكن والنوادي<br>
+   مساكن ريتز كارلتون<br>
+   نادي الوجهة ريتز كارلتون</p>            </div>
+
+            <div class="box">
+               <h3>ماريوت بونفوي
+
+
+               </h3>
+<p>ماريوت بونفوي<br>
+   معلومات البرنامج<br>
+   تسجيل الآن<br>
+   الاجتماعات والأفراح<br>
+   الاجتماعات<br>
+   حفلات الزفاف</p>            </div>
+
+            <div class="box">
+               <h3>سبا ، تسوق ، اتصل
+               </h3>
+<p>سبا ، تسوق ، اتصل
+
+   منتجع صحي<br>
+   العلاجات<br>
+   المواقع<br>
+   محل<br>
+   المحلات التجارية في فندق ريتز كارلتون<br>
+   كرت هدية<br>
+   اتصل بنا<br>
+   الحجوزات عبر الإنترنت<br>
+   عرض الحجوزات الموجودة<br>
+   الحجز عن طريق الهاتف<br>
+   تواصل معنا على وسائل التواصل الاجتماعي</p>            </div>
+
+            <div class="box">
+               <h3>فندق ريتز كارلتون
+
+
+               </h3>
+<p>حول فندق ريتز كارلتون<br>
+   الجوائز<br>
+   معايير الذهب<br>
+   غرفة الأخبار<br>
+   بصمات المجتمع<br>
+   مركز القيادة<br>
+   ضمان أفضل الأسعار<br>
+   وظائف<br>
+   قصة ريتز كارلتون<br>
+   تاريخ<br>
+   رحلة إلى فندق ريتز كارلتون<br>
+   ريتز كيدز</p>            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- reservation -->
+
+   <section class="reservation" id="reservation">
+
+      <h1 class="heading">احجز الان</h1>
+
+      <form action="https://formspree.io/f/xnqybwjk"  method="POST">
+
+         <div class="container">
+
+            <div class="box">
+               <p>name <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Name">
+            </div>
+
+            <div class="box">
+               <p>email <span>*</span></p>
+               <input type="text" class="input" placeholder="Your Email">
+            </div>
+
+            <div class="box">
+               <p>التاريخ <span>*</span></p>
+               <input type="date" class="input">
+            </div>
+
+            
+
+            <div class="box">
+               <p>الكبار <span>*</span></p>
+               <select name="adults" class="input">
+                  <option value="1">1 الكبار</option>
+                  <option value="2">2 الكبار</option>
+                  <option value="3">3 الكبار</option>
+                  <option value="4">4 الكبار</option>
+                  <option value="5">5 الكبار</option>
+                  <option value="6">6 الكبار</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>الاطفال <span>*</span></p>
+               <select name="child" class="input">
+                  <option value="1">1 الاطفال</option>
+                  <option value="2">2 الاطفال</option>
+                  <option value="3">3 الاطفال</option>
+                  <option value="4">4 الاطفال</option>
+                  <option value="5">5 الاطفال</option>
+                  <option value="6">6 الاطفال</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>الغرف <span>*</span></p>
+               <select name="rooms" class="input">
+                  <option value="1">1 الغرف</option>
+                  <option value="2">2 الغرف</option>
+                  <option value="3">3 الغرف</option>
+                  <option value="4">4 الغرف</option>
+                  <option value="5">5 الغرف</option>
+                  <option value="6">6 الغرف</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>نوع الغرفه <span>*</span></p>
+               <select name="type" class="input">
+                  <option value="1">غرفه حصريه</option>
+                  <option value="2">غرفه عائليه</option>
+                  <option value="3">غرفه يوميه</option>
+                  <option value="4">غرفه بانوراما </option>
+               </select>
+            </div>
+   
+         </div>
+
+         <input type="submit" value="check availability" class="btn">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- footer -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +20225778899</a>
+            <a href="#"> <i class="fas fa-envelope"></i> ahmedmedhat1877@gmail.com</a>
+            <a href="#"> <i class="fas fa-map"></i> cairo11221egypt</a>
+         </div>
+
+         <div class="box">
+            <h3>quick links</h3>
+            <a href="#home"> <i class="fas fa-arrow-right"></i> الرئيسيه</a>
+            <a href="#about"> <i class="fas fa-arrow-right"></i> عنا</a>
+            <a href="#room"> <i class="fas fa-arrow-right"></i> الغرف</a>
+            <a href="#gallery"> <i class="fas fa-arrow-right"></i> صاله العرض</a>
+            <a href="#reservation"> <i class="fas fa-arrow-right"></i> حجز الان</a>
+         </div>
+
+         <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> وظائف</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> الاجتماعات</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> شروط الاستخدام</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> حقوق الملكيه</a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> متابعه التفضيلات</a>
+         </div>
+
+      </div>
+
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="credit">&copy; copyright @ 2023 by <span>ahmed</span></div>
+
+   </section>
+
+   <!-- end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+   <script src="script.js"></script>
+
+</body>
+</html>
